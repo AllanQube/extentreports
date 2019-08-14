@@ -17,7 +17,7 @@ public class Report {
 	extent.attachReporter(html);
 	
 	
-	ExtentTest test = extent.createTest("TC_001","Create lead");
+	ExtentTest test = extent.createTest("TC_001","Test Case");
 	test.assignAuthor("Allan");
 	test.assignCategory("Smoke");
 	test.pass("The test case is passed",MediaEntityBuilder.createScreenCaptureFromPath("./../snaps/snap1.jpg").build());
